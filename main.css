@@ -1,0 +1,14 @@
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto; /* 가로 사이즈가 지정되어 있고 block 요소이므로 margin: auto로 중앙 정렬 가능 */
+  padding: 40px 20px;
+}
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  background-color: #555;
+}
